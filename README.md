@@ -1,4 +1,4 @@
-This project is an **Appointments App List** allowing users to add tasks.
+A simple, user-friendly application that allows users to manage and organize their appointments effectively. This app enables users to add, view, and keep track of all their scheduled tasks in one place.
 
 ### Refer to the image below:
 
@@ -15,7 +15,7 @@ This project is an **Appointments App List** allowing users to add tasks.
 <summary>Click to view</summary>
 - Install node.js
     
-- git clone https://github.com/Balaji0077/Appointment-App
+- git clone https://github.com/Balaji0077/Appointment-App.git
   
 - Download dependencies by running `npm install`
   
