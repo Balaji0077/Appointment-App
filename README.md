@@ -14,8 +14,11 @@ This project is an **Appointments App List** allowing users to add tasks.
 <details>
 <summary>Click to view</summary>
 - Install node.js
-- git clone `https://github.com/Balaji0077/Appointment-App`
+    
+- git clone https://github.com/Balaji0077/Appointment-App
+  
 - Download dependencies by running `npm install`
+  
 - Start up the app using `npm start`
 </details>
 
