@@ -1,0 +1,154 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.home-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0, #9897f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.form-container {
+  background-color: #ffffff;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  border-bottom: 2px solid #b5b7c4;
+}
+.heading {
+  font-size: 24px;
+  color: #171f46;
+  margin-bottom: 15px;
+}
+.title {
+  color: #b5b7c4;
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.title-card {
+  margin-bottom: 15px;
+}
+.text-container {
+  margin-bottom: 10px;
+}
+.text-box {
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+  outline: none;
+  border: 1px solid;
+  border-radius: 4px;
+}
+.text-input-card {
+  margin-bottom: 10px;
+}
+.button-add {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  padding: 10px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.stared-btn {
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  border-radius: 10px;
+  padding: 5px;
+  width: 80px;
+  background-color: transparent;
+}
+.heading-bottom {
+  font-size: 22px;
+  color: #171f46;
+}
+.medium-card {
+  border-bottom: 2px solid #b5b7c4;
+}
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.medium-device-image {
+  display: none;
+}
+.items {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.filteredStar {
+  color: #ffffff;
+  border: 1px solid #9897f0;
+  border-radius: 10px;
+  padding: 5px;
+  width: 80px;
+  background-color: #8b5cf6;
+}
+@media screen and (min-width: 768px) {
+  .medium-device-image {
+    display: inline;
+    margin-bottom: 20px;
+  }
+  .medium-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .medium-image {
+    width: 38vw;
+  }
+  .medium-appointment {
+    width: 40vw;
+  }
+  .heading {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .button-add {
+    font-size: 16px;
+    width: 60px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .text-box {
+    font-size: 16px;
+    padding: 9px;
+    width: 70%;
+  }
+  .heading-bottom {
+    font-size: 28px;
+  }
+  .stared-btn {
+    width: 120px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .filteredStar {
+    width: 120px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+  }
+  .form-container {
+    padding: 25px;
+  }
+  .list-container {
+    width: 95%;
+    align-self: center;
+  }
+}

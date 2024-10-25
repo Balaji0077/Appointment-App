@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.lists-container {
+  border: 2px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 3px 15px 3px 15px;
+  margin-bottom: 15px;
+}
+.title-head {
+  font-size: 18px;
+  color: #171f46;
+  font-weight:bold;
+}
+.star-img {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+.date {
+  font-size: 14px;
+  color: #b5b7c4;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.star-btn {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .lists-container {
+    margin-right: 10px;
+    width: 280px;
+  }
+}
